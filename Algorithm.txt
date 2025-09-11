@@ -1,0 +1,9 @@
+1 user input x,y,z
+2 if x > y
+    y=x
+3 if z < x
+    z=x
+4 print x
+
+
+  

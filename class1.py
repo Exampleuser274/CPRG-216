@@ -32,3 +32,17 @@ print(strnum)
 yob = input("enter year of birth\n")
 age = 2025 - int(yob)
 print("your age is",age)
+
+
+#Program
+user_input = input("What is the radius?\n")
+r = int(user_input)
+PI = 22/7
+area = PI * r**2
+circ = 2*PI*r
+print("the circumference is", circ, 'and the area is', area)
+
+user_input = input("what is the side length of the square?\n")
+side = int(user_input)
+area = side**2
+print("the area is",area)

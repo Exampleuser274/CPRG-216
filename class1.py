@@ -26,3 +26,9 @@ num2str = str(num2)
 #printing the string and int
 print(intnum)
 print(strnum)
+
+#using input
+
+yob = input("enter year of birth\n")
+age = 2025 - int(yob)
+print("your age is",age)

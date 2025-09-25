@@ -46,3 +46,14 @@ user_input = input("what is the side length of the square?\n")
 side = int(user_input)
 area = side**2
 print("the area is",area)
+
+#separator
+# escape characters: \n \t \" \' \\
+print("hello\tworld")
+print("what is student\'s name?")
+print("use this symbol \\ to make an escape character")
+
+x=2
+while x<10:
+    x += 7
+print(x)
